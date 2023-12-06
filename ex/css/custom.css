@@ -1677,10 +1677,14 @@ textarea {
 }
 
 
+
+
 @media (max-width:400px) {
     .dec {
         width: 200px !important;
     }
+
+   
 
 }
 
@@ -1715,6 +1719,19 @@ overflow-x:hidden;
         font-size: 13px;
         margin-left: 0px;
         position: relative;
+    }
+
+    .service-style-three .service-card {
+        border-radius: 20px;
+        -webkit-box-shadow: 0px 2px 20px -5px rgb(146 184 255 / 90%);
+        box-shadow: 0px 2px 20px -5px rgb(255 255 255);
+        overflow: hidden;
+        -webkit-transition: .5s;
+        transition: .5s;
+    
+        height: 600px;
+        position: relative;
+        margin-bottom: 30px;
     }
 }
 
